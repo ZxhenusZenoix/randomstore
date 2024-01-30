@@ -89,8 +89,9 @@ if true then
 	end
 end
 
-task.wait(3)
-Humanoid.Landed:Wait()
+Humanoid:ChangeState(Enum.HumanoidStateType.Landed)
+
+task.wait(10)
 
 local Players = game:GetService("Players")
 
