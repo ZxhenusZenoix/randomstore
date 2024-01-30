@@ -91,7 +91,7 @@ end
 
 Humanoid:ChangeState(Enum.HumanoidStateType.Landed)
 
-task.wait(10)
+task.wait(20)
 
 local Players = game:GetService("Players")
 
